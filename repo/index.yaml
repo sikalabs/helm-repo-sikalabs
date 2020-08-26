@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   one-image:
   - apiVersion: v1
+    created: "2020-08-26T06:21:38.948948+02:00"
+    description: Serving one image on Kubernetes Ingress
+    digest: 06b68d12338cdeb9b5dc1805d3a7af32b263bee7bfef58b240cc37383982ecc9
+    name: one-image
+    urls:
+    - one-image-1.4.2.tgz
+    version: 1.4.2
+  - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-23T18:04:50.947111+02:00"
+    created: "2020-08-26T06:21:38.948536+02:00"
+    description: Serving one image on Kubernetes Ingress
+    digest: 5f6e332fb8c3d2462b243cadddf5b53079bb6c41df17aa2c91bd93de7ee6551f
+    name: one-image
+    urls:
+    - one-image-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-08-26T06:21:38.948123+02:00"
+    description: Serving one image on Kubernetes Ingress
+    digest: ad1fa6470957ded66f9dfc5df553dad995c9b2fbf4ad5a9a9e06ca49494e773d
+    name: one-image
+    urls:
+    - one-image-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-08-26T06:21:38.947701+02:00"
     description: Serving one image on Kubernetes Ingress
     digest: 996f0512fe97bdfac158329e22477caaf15e3dcd3d352523afde5ab7dae493d0
     name: one-image
@@ -12,7 +38,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-23T18:04:50.946218+02:00"
+    created: "2020-08-26T06:21:38.947262+02:00"
     description: Serving one image on Kubernetes Ingress
     digest: 00e78cc0ccd2cf5d927ece7316793e5c454ce937d2e28f2ed4c9507b915a041d
     name: one-image
@@ -21,7 +47,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-23T18:04:50.945673+02:00"
+    created: "2020-08-26T06:21:38.946623+02:00"
     description: Serving one image on Kubernetes Ingress
     digest: 25051bc5b7fb926d99582670c1a0ad75df3d369530b10f97e0b4c5ae5a2f8efd
     name: one-image
@@ -30,7 +56,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-23T18:04:50.945081+02:00"
+    created: "2020-08-26T06:21:38.945907+02:00"
     description: Serving one image on Kubernetes Ingress
     digest: d3a40334abf80c23100d566001807afb9f36873e4828fc68416106c1ffb69aff
     name: one-image
@@ -39,10 +65,10 @@ entries:
     version: 1.1.1
   wordpress-mysql:
   - apiVersion: v1
-    created: "2020-07-23T18:04:50.947439+02:00"
+    created: "2020-08-26T06:21:38.950134+02:00"
     digest: 2c947411159f11490b7d78af4ec6523fa642a8ad9a542c89845a93867e7b74c7
     name: wordpress-mysql
     urls:
     - wordpress-mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-23T18:04:50.942617+02:00"
+generated: "2020-08-26T06:21:38.944122+02:00"
