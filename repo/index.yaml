@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   maildev:
   - apiVersion: v1
-    created: "2020-11-17T22:59:45.864391+01:00"
+    created: "2020-11-26T21:55:12.276517+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 16301b4abf5d990d6b166c041f49e440f02916ba10f071850515bfd45c3496e4
     name: maildev
@@ -11,7 +11,7 @@ entries:
     version: 1.0.0
   one-image:
   - apiVersion: v1
-    created: "2020-11-17T22:59:45.872462+01:00"
+    created: "2020-11-26T21:55:12.286372+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 444cae3a90c565f4b20734ded53af476e3c16c423224ab10bd7ad5fc19b80b10
     name: one-image
@@ -19,7 +19,7 @@ entries:
     - one-image-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v1
-    created: "2020-11-17T22:59:45.871953+01:00"
+    created: "2020-11-26T21:55:12.285638+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 27de3543184af57c3ca0a16d8310c29f877c9e12222a5a60e554d94b0a8e4fd6
     name: one-image
@@ -27,7 +27,7 @@ entries:
     - one-image-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: "2020-11-17T22:59:45.871388+01:00"
+    created: "2020-11-26T21:55:12.284978+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 06b68d12338cdeb9b5dc1805d3a7af32b263bee7bfef58b240cc37383982ecc9
     name: one-image
@@ -36,7 +36,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-17T22:59:45.870528+01:00"
+    created: "2020-11-26T21:55:12.283953+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 5f6e332fb8c3d2462b243cadddf5b53079bb6c41df17aa2c91bd93de7ee6551f
     name: one-image
@@ -45,7 +45,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-17T22:59:45.869476+01:00"
+    created: "2020-11-26T21:55:12.281379+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: ad1fa6470957ded66f9dfc5df553dad995c9b2fbf4ad5a9a9e06ca49494e773d
     name: one-image
@@ -54,7 +54,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-17T22:59:45.867083+01:00"
+    created: "2020-11-26T21:55:12.280226+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 996f0512fe97bdfac158329e22477caaf15e3dcd3d352523afde5ab7dae493d0
     name: one-image
@@ -63,7 +63,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-17T22:59:45.866225+01:00"
+    created: "2020-11-26T21:55:12.278909+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 00e78cc0ccd2cf5d927ece7316793e5c454ce937d2e28f2ed4c9507b915a041d
     name: one-image
@@ -72,7 +72,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-17T22:59:45.865595+01:00"
+    created: "2020-11-26T21:55:12.278045+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 25051bc5b7fb926d99582670c1a0ad75df3d369530b10f97e0b4c5ae5a2f8efd
     name: one-image
@@ -81,19 +81,28 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-17T22:59:45.864891+01:00"
+    created: "2020-11-26T21:55:12.277237+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: d3a40334abf80c23100d566001807afb9f36873e4828fc68416106c1ffb69aff
     name: one-image
     urls:
     - one-image-1.1.1.tgz
     version: 1.1.1
+  supportmonkey:
+  - apiVersion: v1
+    created: "2020-11-26T21:55:12.286605+01:00"
+    description: Send random email to support
+    digest: 8b6450645674dd9e9d18b23527cef1052813bfdcbee84fadde350ee4233b795f
+    name: supportmonkey
+    urls:
+    - supportmonkey-0.2.0.tgz
+    version: 0.2.0
   wordpress-mysql:
   - apiVersion: v1
-    created: "2020-11-17T22:59:45.873293+01:00"
+    created: "2020-11-26T21:55:12.287732+01:00"
     digest: 2c947411159f11490b7d78af4ec6523fa642a8ad9a542c89845a93867e7b74c7
     name: wordpress-mysql
     urls:
     - wordpress-mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-17T22:59:45.863525+01:00"
+generated: "2020-11-26T21:55:12.275678+01:00"
