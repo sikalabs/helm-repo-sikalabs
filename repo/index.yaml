@@ -2,7 +2,15 @@ apiVersion: v1
 entries:
   maildev:
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.721242+01:00"
+    created: "2020-12-27T14:51:53.351353+01:00"
+    description: Simple maildev/maildev Kubernetes deployment
+    digest: a74ed0dd089e7fc5062a1448cc5ce43aff215b19f45f1d522be06c21dd5386bd
+    name: maildev
+    urls:
+    - maildev-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v1
+    created: "2020-12-27T14:51:53.350922+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 513f4d22dcad3844ee158698780c5f41400b2a713a0456c86278aeaa220a75ac
     name: maildev
@@ -10,7 +18,7 @@ entries:
     - maildev-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.720643+01:00"
+    created: "2020-12-27T14:51:53.350408+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 390ef651bc9e42c056b42b74a2c4be70efd1685d466f657f139786162e702d83
     name: maildev
@@ -18,7 +26,7 @@ entries:
     - maildev-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.720115+01:00"
+    created: "2020-12-27T14:51:53.349888+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 16301b4abf5d990d6b166c041f49e440f02916ba10f071850515bfd45c3496e4
     name: maildev
@@ -27,7 +35,7 @@ entries:
     version: 1.0.0
   one-image:
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.734014+01:00"
+    created: "2020-12-27T14:51:53.361727+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 444cae3a90c565f4b20734ded53af476e3c16c423224ab10bd7ad5fc19b80b10
     name: one-image
@@ -35,7 +43,7 @@ entries:
     - one-image-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.733469+01:00"
+    created: "2020-12-27T14:51:53.361022+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 27de3543184af57c3ca0a16d8310c29f877c9e12222a5a60e554d94b0a8e4fd6
     name: one-image
@@ -43,7 +51,7 @@ entries:
     - one-image-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.732958+01:00"
+    created: "2020-12-27T14:51:53.359796+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 06b68d12338cdeb9b5dc1805d3a7af32b263bee7bfef58b240cc37383982ecc9
     name: one-image
@@ -52,7 +60,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-27T13:25:59.728764+01:00"
+    created: "2020-12-27T14:51:53.358254+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 5f6e332fb8c3d2462b243cadddf5b53079bb6c41df17aa2c91bd93de7ee6551f
     name: one-image
@@ -61,7 +69,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-27T13:25:59.727839+01:00"
+    created: "2020-12-27T14:51:53.357334+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: ad1fa6470957ded66f9dfc5df553dad995c9b2fbf4ad5a9a9e06ca49494e773d
     name: one-image
@@ -70,7 +78,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-27T13:25:59.726398+01:00"
+    created: "2020-12-27T14:51:53.355631+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 996f0512fe97bdfac158329e22477caaf15e3dcd3d352523afde5ab7dae493d0
     name: one-image
@@ -79,7 +87,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-27T13:25:59.7254+01:00"
+    created: "2020-12-27T14:51:53.354589+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 00e78cc0ccd2cf5d927ece7316793e5c454ce937d2e28f2ed4c9507b915a041d
     name: one-image
@@ -88,7 +96,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-27T13:25:59.724762+01:00"
+    created: "2020-12-27T14:51:53.353946+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 25051bc5b7fb926d99582670c1a0ad75df3d369530b10f97e0b4c5ae5a2f8efd
     name: one-image
@@ -97,7 +105,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-27T13:25:59.724148+01:00"
+    created: "2020-12-27T14:51:53.353069+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: d3a40334abf80c23100d566001807afb9f36873e4828fc68416106c1ffb69aff
     name: one-image
@@ -106,7 +114,7 @@ entries:
     version: 1.1.1
   simplemailproxy:
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.734505+01:00"
+    created: "2020-12-27T14:51:53.362386+01:00"
     description: Simple Mail Proxy (for Maildev)
     digest: 590173ad5a987693d867b11d22eb17666a769131ecfd43cd17dcb9e172cecf94
     name: simplemailproxy
@@ -115,7 +123,7 @@ entries:
     version: 1.0.0
   supportmonkey:
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.73529+01:00"
+    created: "2020-12-27T14:51:53.363262+01:00"
     description: Send random email to support
     digest: 8b6450645674dd9e9d18b23527cef1052813bfdcbee84fadde350ee4233b795f
     name: supportmonkey
@@ -124,10 +132,10 @@ entries:
     version: 0.2.0
   wordpress-mysql:
   - apiVersion: v1
-    created: "2020-12-27T13:25:59.736214+01:00"
+    created: "2020-12-27T14:51:53.364556+01:00"
     digest: 2c947411159f11490b7d78af4ec6523fa642a8ad9a542c89845a93867e7b74c7
     name: wordpress-mysql
     urls:
     - wordpress-mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-27T13:25:59.716768+01:00"
+generated: "2020-12-27T14:51:53.34763+01:00"
