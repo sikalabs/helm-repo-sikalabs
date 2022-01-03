@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   basic-auth-secret:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.879225+01:00"
+    created: "2022-01-03T15:55:34.86956+01:00"
     description: BasicAuth secret created by Helm
     digest: 9df37d2cfb983847214041b106d3f2e5e1d523a5a0b48f0ef4b232b9acf28f39
     name: basic-auth-secret
@@ -11,7 +11,7 @@ entries:
     version: 1.0.0
   hello-world:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.880066+01:00"
+    created: "2022-01-03T15:55:34.870803+01:00"
     description: Hello World example chart
     digest: 7e548e1a403256bc47eae518576aa22b8d0cc4d3aafbb003a6d62ac143c24885
     name: hello-world
@@ -19,7 +19,7 @@ entries:
     - hello-world-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.879563+01:00"
+    created: "2022-01-03T15:55:34.870132+01:00"
     description: Hello World example chart
     digest: abbc3fef6c13cbf7607abd8c81ed67f2c2e96f5fff1793e71be61fe6f5efa197
     name: hello-world
@@ -28,7 +28,7 @@ entries:
     version: 0.1.0
   kuma:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.880431+01:00"
+    created: "2022-01-03T15:55:34.871155+01:00"
     description: Kuma
     digest: 587f6d63335e76e9ff71b8b6e529b23a785920a05e76f7fff05abf304de42d21
     name: kuma
@@ -37,7 +37,7 @@ entries:
     version: 0.1.0
   maildev:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.881372+01:00"
+    created: "2022-01-03T15:55:34.872181+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: a74ed0dd089e7fc5062a1448cc5ce43aff215b19f45f1d522be06c21dd5386bd
     name: maildev
@@ -45,7 +45,7 @@ entries:
     - maildev-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.881143+01:00"
+    created: "2022-01-03T15:55:34.871924+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 513f4d22dcad3844ee158698780c5f41400b2a713a0456c86278aeaa220a75ac
     name: maildev
@@ -53,7 +53,7 @@ entries:
     - maildev-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.880936+01:00"
+    created: "2022-01-03T15:55:34.871699+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 390ef651bc9e42c056b42b74a2c4be70efd1685d466f657f139786162e702d83
     name: maildev
@@ -61,7 +61,7 @@ entries:
     - maildev-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.880732+01:00"
+    created: "2022-01-03T15:55:34.871488+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 16301b4abf5d990d6b166c041f49e440f02916ba10f071850515bfd45c3496e4
     name: maildev
@@ -70,7 +70,7 @@ entries:
     version: 1.0.0
   one-image:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.887116+01:00"
+    created: "2022-01-03T15:55:34.878262+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: f237c4c839b76ef9f6163ec4e36f903dfbc10c8903e4494605cd4c5a52f22936
     name: one-image
@@ -78,7 +78,7 @@ entries:
     - one-image-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.88611+01:00"
+    created: "2022-01-03T15:55:34.877408+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 3e23d4b2aa775a12ea0121b3f559a22bb4bfc9986a430a991d0638b6454dc1b3
     name: one-image
@@ -86,7 +86,7 @@ entries:
     - one-image-1.8.0-dev-2.tgz
     version: 1.8.0-dev-2
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.885406+01:00"
+    created: "2022-01-03T15:55:34.876906+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 4ad20904fba39a7a6fc25dc141236a755921bccb8e0225c899c8f9c2476b7071
     name: one-image
@@ -94,7 +94,7 @@ entries:
     - one-image-1.8.0-dev-1.tgz
     version: 1.8.0-dev-1
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.884969+01:00"
+    created: "2022-01-03T15:55:34.876479+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 137f51afffdaeca04c786ca705b3eb5719357d947e16a9639bad1025c3517e71
     name: one-image
@@ -102,7 +102,7 @@ entries:
     - one-image-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.884613+01:00"
+    created: "2022-01-03T15:55:34.876078+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 954502f21dc6537e1dcbca85fc5c15d782b65054c3898407c58bc9f3b186f600
     name: one-image
@@ -110,7 +110,7 @@ entries:
     - one-image-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.884263+01:00"
+    created: "2022-01-03T15:55:34.875069+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: dea73d73c863081b26e85be2c68145eff9201d80c969d7a3c8d7d1dec88b2685
     name: one-image
@@ -118,7 +118,7 @@ entries:
     - one-image-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.884024+01:00"
+    created: "2022-01-03T15:55:34.87481+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 444cae3a90c565f4b20734ded53af476e3c16c423224ab10bd7ad5fc19b80b10
     name: one-image
@@ -126,7 +126,7 @@ entries:
     - one-image-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.88337+01:00"
+    created: "2022-01-03T15:55:34.87448+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 27de3543184af57c3ca0a16d8310c29f877c9e12222a5a60e554d94b0a8e4fd6
     name: one-image
@@ -134,7 +134,7 @@ entries:
     - one-image-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.883011+01:00"
+    created: "2022-01-03T15:55:34.87415+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 06b68d12338cdeb9b5dc1805d3a7af32b263bee7bfef58b240cc37383982ecc9
     name: one-image
@@ -143,7 +143,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-30T00:31:01.882775+01:00"
+    created: "2022-01-03T15:55:34.873893+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 5f6e332fb8c3d2462b243cadddf5b53079bb6c41df17aa2c91bd93de7ee6551f
     name: one-image
@@ -152,7 +152,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-30T00:31:01.882485+01:00"
+    created: "2022-01-03T15:55:34.873588+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: ad1fa6470957ded66f9dfc5df553dad995c9b2fbf4ad5a9a9e06ca49494e773d
     name: one-image
@@ -161,7 +161,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-30T00:31:01.882066+01:00"
+    created: "2022-01-03T15:55:34.873389+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 996f0512fe97bdfac158329e22477caaf15e3dcd3d352523afde5ab7dae493d0
     name: one-image
@@ -170,7 +170,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-30T00:31:01.881878+01:00"
+    created: "2022-01-03T15:55:34.873195+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 00e78cc0ccd2cf5d927ece7316793e5c454ce937d2e28f2ed4c9507b915a041d
     name: one-image
@@ -179,7 +179,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-30T00:31:01.881731+01:00"
+    created: "2022-01-03T15:55:34.872781+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 25051bc5b7fb926d99582670c1a0ad75df3d369530b10f97e0b4c5ae5a2f8efd
     name: one-image
@@ -188,7 +188,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-30T00:31:01.8816+01:00"
+    created: "2022-01-03T15:55:34.872401+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: d3a40334abf80c23100d566001807afb9f36873e4828fc68416106c1ffb69aff
     name: one-image
@@ -197,7 +197,7 @@ entries:
     version: 1.1.1
   registry:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.887234+01:00"
+    created: "2022-01-03T15:55:34.87838+01:00"
     description: Simple Docker Registry in Kubernetes
     digest: b23add1ed030072934d8b06fc0291a6638daeba831a396c03c46e800e7ee6c30
     name: registry
@@ -206,7 +206,15 @@ entries:
     version: 0.1.0-dev
   simple-registry:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.888326+01:00"
+    created: "2022-01-03T15:55:34.879775+01:00"
+    description: Simple Docker Registry
+    digest: d7b8237f7c3503534420fdb26a42bbb47b66f097afd90f9745e32cfcf211746d
+    name: simple-registry
+    urls:
+    - simple-registry-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    created: "2022-01-03T15:55:34.879445+01:00"
     description: Simple Docker Registry
     digest: 4405a49a4de71b604ff30203acd038e8c7ed0302c7e50f585ce3e431345aaa5d
     name: simple-registry
@@ -214,7 +222,7 @@ entries:
     - simple-registry-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.887704+01:00"
+    created: "2022-01-03T15:55:34.879039+01:00"
     description: Simple Docker Registry
     digest: bde1ac3aaccd2f857749b8f49a4c4c7c91c49ea80f1b3997eb4352a8888dc83b
     name: simple-registry
@@ -222,7 +230,7 @@ entries:
     - simple-registry-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.887456+01:00"
+    created: "2022-01-03T15:55:34.878698+01:00"
     description: Simple Docker Registry
     digest: c0a7867a4d7307b8d72c511e17e99f0ef2c2d40a764704df6ae73ba8a7961447
     name: simple-registry
@@ -231,7 +239,7 @@ entries:
     version: 0.1.0
   simplemailproxy:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.888424+01:00"
+    created: "2022-01-03T15:55:34.879879+01:00"
     description: Simple Mail Proxy (for Maildev)
     digest: 590173ad5a987693d867b11d22eb17666a769131ecfd43cd17dcb9e172cecf94
     name: simplemailproxy
@@ -240,7 +248,7 @@ entries:
     version: 1.0.0
   supportmonkey:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.888532+01:00"
+    created: "2022-01-03T15:55:34.880028+01:00"
     description: Send random email to support
     digest: 8b6450645674dd9e9d18b23527cef1052813bfdcbee84fadde350ee4233b795f
     name: supportmonkey
@@ -249,7 +257,7 @@ entries:
     version: 0.2.0
   uptime-kuma:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.889269+01:00"
+    created: "2022-01-03T15:55:34.880726+01:00"
     description: Uptime Kuma
     digest: 671793fb34feb26a1c55a347b9077189b9274e473fc00c535808ebc5f272fa41
     name: uptime-kuma
@@ -257,7 +265,7 @@ entries:
     - uptime-kuma-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.88883+01:00"
+    created: "2022-01-03T15:55:34.880386+01:00"
     description: Uptime Kuma
     digest: 671e732af2b9e72a51429f85a93913bb6bc44bce7df51ca182eaa12e09800807
     name: uptime-kuma
@@ -266,7 +274,7 @@ entries:
     version: 0.2.0
   wordpress:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.889563+01:00"
+    created: "2022-01-03T15:55:34.881101+01:00"
     description: Simple Wordpress
     digest: 4b13ed82e68ad4d0118b303d4e7d7d4d14dbbe00b5f52b3d713622ad169861e6
     name: wordpress
@@ -275,10 +283,10 @@ entries:
     version: 0.2.0
   wordpress-mysql:
   - apiVersion: v1
-    created: "2021-12-30T00:31:01.889868+01:00"
+    created: "2022-01-03T15:55:34.88138+01:00"
     digest: 2c947411159f11490b7d78af4ec6523fa642a8ad9a542c89845a93867e7b74c7
     name: wordpress-mysql
     urls:
     - wordpress-mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-30T00:31:01.878557+01:00"
+generated: "2022-01-03T15:55:34.86902+01:00"
