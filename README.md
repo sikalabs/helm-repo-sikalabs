@@ -1,1 +1,1 @@
-# helm-repo-ondrejsika
+# helm-repo-sikalabs
