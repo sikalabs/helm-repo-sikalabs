@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   basic-auth-secret:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.543764+01:00"
+    created: "2025-11-19T19:09:35.8044228+01:00"
     description: BasicAuth secret created by Helm
     digest: 9df37d2cfb983847214041b106d3f2e5e1d523a5a0b48f0ef4b232b9acf28f39
     name: basic-auth-secret
@@ -11,7 +11,7 @@ entries:
     version: 1.0.0
   ca-trust-binder:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.545051+01:00"
+    created: "2025-11-19T19:09:35.8160427+01:00"
     description: Create Root CA Certificate trust store and bind it to your applications
       using Cert-Manager, Trust-Manager and Gatekeeper
     digest: 85b35d1d87fc62176e990571619f7eae726195b4d449b94a041c9ea8c3e2a0b4
@@ -21,7 +21,7 @@ entries:
     - ca-trust-binder-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.544786+01:00"
+    created: "2025-11-19T19:09:35.8127994+01:00"
     description: Create Root CA Certificate trust store and bind it to your applications
       using Cert-Manager, Trust-Manager and Gatekeeper
     digest: 8a13d5d2d8cb90942fa6c72a20f0e45fb8c0a059addc29207f5da7447440d4fe
@@ -31,7 +31,7 @@ entries:
     - ca-trust-binder-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.544443+01:00"
+    created: "2025-11-19T19:09:35.8100214+01:00"
     description: Create Root CA Certificate trust store and bind it to your applications
       using Cert-Manager, Trust-Manager and Gatekeeper
     digest: b3fbecefd9eea637b7bbdbb8bdd25754f373a6f61caad032b3f585a8dff8bba4
@@ -41,7 +41,7 @@ entries:
     - ca-trust-binder-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.544013+01:00"
+    created: "2025-11-19T19:09:35.8073604+01:00"
     description: Create Root CA Certificate trust store and bind it to your applications
       using Cert-Manager, Trust-Manager and Gatekeeper
     digest: b8055f5a4a9baf35e0819ad0c29da676a37a98905f494e0278a19b653ce45664
@@ -52,7 +52,7 @@ entries:
     version: 0.1.0
   cert-manager-issuers:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.545262+01:00"
+    created: "2025-11-19T19:09:35.81874+01:00"
     description: Issuers & ClusterIssuers for Cert-Manager
     digest: f18b6069ffabe8f92809c2689e50a265d729bf21c0bc5e5ea2912a51f0a43828
     name: cert-manager-issuers
@@ -61,7 +61,7 @@ entries:
     version: 0.1.0
   cloudflare-tunnel:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.545529+01:00"
+    created: "2025-11-19T19:09:35.8216328+01:00"
     description: Cloudflare Argo Tunnel in Kubernetes
     digest: aa394869c39bdc664078e59303b9e881b6ffb1ec14554588a47e36b363360fb0
     name: cloudflare-tunnel
@@ -70,7 +70,7 @@ entries:
     version: 0.1.0
   cnpg-cluster:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.557864+01:00"
+    created: "2025-11-19T19:09:35.8753313+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: 9582cc159e51579129baaf13d3d96b4f4943f4d07688fdd433a98ffe50ba3116
     maintainers:
@@ -81,7 +81,7 @@ entries:
     - cnpg-cluster-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.553964+01:00"
+    created: "2025-11-19T19:09:35.8539021+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: e2cf29caa47108fcc0641b606442da4e5dbf85698508428928dac7afa2c3a170
     maintainers:
@@ -92,7 +92,7 @@ entries:
     - cnpg-cluster-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.551678+01:00"
+    created: "2025-11-19T19:09:35.8460664+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: f482e2dffdfdc969702afae5d2f1e5c0be51daca331cfea036b2bb70e9542ee9
     maintainers:
@@ -103,7 +103,7 @@ entries:
     - cnpg-cluster-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.549939+01:00"
+    created: "2025-11-19T19:09:35.840485+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: f1d36f26fa07534e14352f7e8319ebad3f4ea2bf7271603d16efcd2b36ec0159
     maintainers:
@@ -114,7 +114,7 @@ entries:
     - cnpg-cluster-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.548643+01:00"
+    created: "2025-11-19T19:09:35.8355168+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: b7ed06c2897c588dd235d9b9b5f5c31e3b56e4b3d82c4ccb237dd69632a7c8d9
     maintainers:
@@ -125,7 +125,7 @@ entries:
     - cnpg-cluster-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.54701+01:00"
+    created: "2025-11-19T19:09:35.8316846+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: ebf894a333a297aa13dd4ecb2ee864eb2248417a61a75bc6b039d28f783b51fe
     maintainers:
@@ -136,7 +136,7 @@ entries:
     - cnpg-cluster-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.546588+01:00"
+    created: "2025-11-19T19:09:35.8280849+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: 795907b5abadd7c69bb1e19ae4679e3f04a695cbed3b31f2d07f012df6171778
     maintainers:
@@ -147,7 +147,7 @@ entries:
     - cnpg-cluster-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.545967+01:00"
+    created: "2025-11-19T19:09:35.8250184+01:00"
     description: CNPG.io PostgreSQL Cluster with restore from S3
     digest: 0f7721e9bab13c4485fce792a7af913d5bc1936cc2770377f8de6d8c3d2aaf96
     maintainers:
@@ -159,7 +159,7 @@ entries:
     version: 0.1.0
   element-web:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.558772+01:00"
+    created: "2025-11-19T19:09:35.882847+01:00"
     description: Element, client for Matrix protocol
     digest: e689786e2cfcbaccf675af804ea563255d749bbbec32d37852bca54bdc4843f0
     name: element-web
@@ -167,7 +167,7 @@ entries:
     - element-web-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.558244+01:00"
+    created: "2025-11-19T19:09:35.8798374+01:00"
     description: Element, client for Matrix protocol
     digest: 34dd1fc3224ecb21940c6e8a5316107abc57a2d326cbc9cf4e39cfcbde73412e
     name: element-web
@@ -176,7 +176,7 @@ entries:
     version: 0.1.0
   extra-tls:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.559224+01:00"
+    created: "2025-11-19T19:09:35.8850867+01:00"
     description: Create TLS certificates
     digest: 8f5868b43c2a4c9d3cfca85759810fb7130af26cb2e0728e7d477c6ab61a4871
     name: extra-tls
@@ -186,16 +186,28 @@ entries:
     version: 0.1.0
   gitlab-runner:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.559653+01:00"
+    created: "2025-11-19T19:09:35.8873255+01:00"
     description: Gitlab Runner by Gitlab Runner Operator
     digest: 52a8b697d3f0cf5bbebbfacf79c4bff5d3db62cbe67935dbd4bfa3bc54b154c3
     name: gitlab-runner
     urls:
     - gitlab-runner-0.1.0.tgz
     version: 0.1.0
+  headscale:
+  - apiVersion: v2
+    appVersion: 0.27.1
+    created: "2025-11-19T19:09:35.8913251+01:00"
+    description: Headscale (with embedded DERP) and optional Headplane UI, packaged
+      for multi-tenant installs
+    digest: 79ec29f1a4992d18c721547ee3976e94070b43d4dfca19c3116edc9d7f8f1e02
+    name: headscale
+    type: application
+    urls:
+    - headscale-0.1.0.tgz
+    version: 0.1.0-dev
   hello-world:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.562906+01:00"
+    created: "2025-11-19T19:09:35.9094546+01:00"
     description: Hello World example chart
     digest: c7ef69d9c27dc8d37040528132655450eea24510c208845274c37ec0350ff2f7
     name: hello-world
@@ -203,7 +215,7 @@ entries:
     - hello-world-0.15.0.tgz
     version: 0.15.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.562517+01:00"
+    created: "2025-11-19T19:09:35.9070274+01:00"
     description: Hello World example chart
     digest: b4c1ce6bec23c7a692e29d74339f8334fc1b80093b8a28395bd11db213bb618a
     name: hello-world
@@ -211,7 +223,7 @@ entries:
     - hello-world-0.14.0.tgz
     version: 0.14.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.562351+01:00"
+    created: "2025-11-19T19:09:35.9044519+01:00"
     description: Hello World example chart
     digest: 17dbd1befaccfb767504e5c97e8f617a5a8503afdf2397339766271d3199b552
     name: hello-world
@@ -219,7 +231,7 @@ entries:
     - hello-world-0.13.0.tgz
     version: 0.13.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.562198+01:00"
+    created: "2025-11-19T19:09:35.901936+01:00"
     description: Hello World example chart
     digest: 8b2c1b91155d405b76f0f583fd80d35a7e12c78e5ee177bc4e48363c92abd0c0
     name: hello-world
@@ -227,7 +239,7 @@ entries:
     - hello-world-0.12.0.tgz
     version: 0.12.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.561091+01:00"
+    created: "2025-11-19T19:09:35.8993498+01:00"
     description: Hello World example chart
     digest: 78ccae8742b751a1eb9fe11d8d259c85faefb38e0c243775a1bb2999b8a15139
     name: hello-world
@@ -235,7 +247,7 @@ entries:
     - hello-world-0.11.0.tgz
     version: 0.11.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.560832+01:00"
+    created: "2025-11-19T19:09:35.8967942+01:00"
     description: Hello World example chart
     digest: f6f392e8f18366cdb364f4d237f39af4a42cfcbd91dd833639d34eaca4ba3ecc
     name: hello-world
@@ -243,7 +255,7 @@ entries:
     - hello-world-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.567007+01:00"
+    created: "2025-11-19T19:09:35.9391129+01:00"
     description: Hello World example chart
     digest: 6b28abdc37157cb0983cfe1a7c28fbeb554071ec74b28abfea96dd6362509309
     name: hello-world
@@ -251,7 +263,7 @@ entries:
     - hello-world-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.566868+01:00"
+    created: "2025-11-19T19:09:35.9365073+01:00"
     description: Hello World example chart
     digest: a63159f32adf2c53230b0516237693bd682bbe2d59878a9863ebf2dc409b2189
     name: hello-world
@@ -259,7 +271,7 @@ entries:
     - hello-world-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.56637+01:00"
+    created: "2025-11-19T19:09:35.9284456+01:00"
     description: Hello World example chart
     digest: a9de6d7608887d5cd2320d144c39376b59ce9ee817e646e83a68d6a9b5014ecc
     name: hello-world
@@ -267,7 +279,7 @@ entries:
     - hello-world-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.566036+01:00"
+    created: "2025-11-19T19:09:35.9253431+01:00"
     description: Hello World example chart
     digest: bd9c60d292e1cd845e4eb84ffb9cd1e57e8febb0f1e90adb7200d50b046051b6
     name: hello-world
@@ -275,7 +287,7 @@ entries:
     - hello-world-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.565656+01:00"
+    created: "2025-11-19T19:09:35.9225807+01:00"
     description: Hello World example chart
     digest: fe192faab0a728940c38dec721bd50e28231e24c6298185e532912e632705c35
     name: hello-world
@@ -283,7 +295,7 @@ entries:
     - hello-world-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.565334+01:00"
+    created: "2025-11-19T19:09:35.9200873+01:00"
     description: Hello World example chart
     digest: 9068a45164e6b56712e898affa06b258490ca16d831b713b0d95a385e39ee7bd
     name: hello-world
@@ -291,7 +303,7 @@ entries:
     - hello-world-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.563862+01:00"
+    created: "2025-11-19T19:09:35.9156022+01:00"
     description: Hello World example chart
     digest: d16e5864cd2377ca680c409b3d4ea9b00c2618ea03f6b07a4f4170e983fc943f
     name: hello-world
@@ -299,7 +311,7 @@ entries:
     - hello-world-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.563244+01:00"
+    created: "2025-11-19T19:09:35.9121008+01:00"
     description: Hello World example chart
     digest: 7e548e1a403256bc47eae518576aa22b8d0cc4d3aafbb003a6d62ac143c24885
     name: hello-world
@@ -307,7 +319,7 @@ entries:
     - hello-world-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.560285+01:00"
+    created: "2025-11-19T19:09:35.8942031+01:00"
     description: Hello World example chart
     digest: abbc3fef6c13cbf7607abd8c81ed67f2c2e96f5fff1793e71be61fe6f5efa197
     name: hello-world
@@ -316,7 +328,7 @@ entries:
     version: 0.1.0
   hello-world-example:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.567939+01:00"
+    created: "2025-11-19T19:09:35.951392+01:00"
     dependencies:
     - name: hello-world
       repository: https://helm.sikalabs.io
@@ -328,7 +340,7 @@ entries:
     - hello-world-example-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.567668+01:00"
+    created: "2025-11-19T19:09:35.9483608+01:00"
     dependencies:
     - name: hello-world
       repository: https://helm.sikalabs.io
@@ -340,7 +352,7 @@ entries:
     - hello-world-example-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.567461+01:00"
+    created: "2025-11-19T19:09:35.9451715+01:00"
     dependencies:
     - name: hello-world
       repository: https://helm.sikalabs.io
@@ -352,7 +364,7 @@ entries:
     - hello-world-example-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.56725+01:00"
+    created: "2025-11-19T19:09:35.9422757+01:00"
     dependencies:
     - name: hello-world
       repository: https://helm.sikalabs.io
@@ -366,7 +378,7 @@ entries:
   keycloak:
   - apiVersion: v2
     appVersion: 26.3.3
-    created: "2025-11-03T21:52:36.568298+01:00"
+    created: "2025-11-19T19:09:35.9545327+01:00"
     description: Keycloak Helm Chart for running Keycloak on Kubernetes
     digest: 2af5715982d399cb164baf196ad4bb1022a80c76b4fbc765b240d2fa25252da9
     kubeVersion: '>=1.20.0-0'
@@ -380,7 +392,7 @@ entries:
     version: 0.1.0
   keycloak-configurator:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.568999+01:00"
+    created: "2025-11-19T19:09:35.9600177+01:00"
     description: Configure Keycloak using Terraform
     digest: 26960949580b2fa7236863a23e694496b1296dae81ce6f18140d47626bb010b5
     name: keycloak-configurator
@@ -389,7 +401,7 @@ entries:
     - keycloak-configurator-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.568751+01:00"
+    created: "2025-11-19T19:09:35.9571486+01:00"
     description: Configure Keycloak using Terraform
     digest: 055df9af2ef2d64e8ceb6641fb6a5cda6751f14bdb9df365c73e718864d358c9
     name: keycloak-configurator
@@ -399,7 +411,7 @@ entries:
     version: 0.1.0
   kubernetes-dashboard-gateway:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.5693+01:00"
+    created: "2025-11-19T19:09:35.9625322+01:00"
     digest: 41845d8a1c7ed93aa28c42f57ad6a07d18f8b74a1c4faad0633f60cd4369ab69
     name: kubernetes-dashboard-gateway
     urls:
@@ -407,7 +419,7 @@ entries:
     version: 0.1.0
   kuma:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.569507+01:00"
+    created: "2025-11-19T19:09:35.9648142+01:00"
     description: Kuma
     digest: 587f6d63335e76e9ff71b8b6e529b23a785920a05e76f7fff05abf304de42d21
     name: kuma
@@ -416,7 +428,7 @@ entries:
     version: 0.1.0
   loggen:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.569704+01:00"
+    created: "2025-11-19T19:09:35.9668694+01:00"
     description: slu loggen
     digest: dbf0d230c83dd3ace50a18a9d5d603eab82a68033d3efd5736826a706c279423
     name: loggen
@@ -425,7 +437,7 @@ entries:
     version: 0.1.0
   maildev:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.573462+01:00"
+    created: "2025-11-19T19:09:35.988375+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 0c6a2d63e70fe02af9d2d6fc5353b8fcb41708ded9f1026007cd1f569beb31e8
     name: maildev
@@ -433,7 +445,7 @@ entries:
     - maildev-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.573164+01:00"
+    created: "2025-11-19T19:09:35.9859095+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 8a8bdebcca2e61a9dea84ece08ffc08218a8f580829d3dd38bd6ec98757c1be5
     name: maildev
@@ -441,7 +453,7 @@ entries:
     - maildev-1.6.1.tgz
     version: 1.6.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.572736+01:00"
+    created: "2025-11-19T19:09:35.9832454+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 12d7b164cc610c4cbc79eb00d9430b610f834999ee6636f9d2b95abe9c3ea401
     name: maildev
@@ -449,7 +461,7 @@ entries:
     - maildev-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.572374+01:00"
+    created: "2025-11-19T19:09:35.9805716+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: a61181f569fdffff42279190ae418f6adee62839e199f3daa4d34d74d1f3580d
     name: maildev
@@ -457,7 +469,7 @@ entries:
     - maildev-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.572204+01:00"
+    created: "2025-11-19T19:09:35.9781963+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 2cfaa8af8d0a5fdf148d50ca30132aa5f479526f263f6b7ec0f4101227cd68f1
     name: maildev
@@ -465,7 +477,7 @@ entries:
     - maildev-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.57196+01:00"
+    created: "2025-11-19T19:09:35.9758045+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: a74ed0dd089e7fc5062a1448cc5ce43aff215b19f45f1d522be06c21dd5386bd
     name: maildev
@@ -473,7 +485,7 @@ entries:
     - maildev-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.571322+01:00"
+    created: "2025-11-19T19:09:35.973543+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 513f4d22dcad3844ee158698780c5f41400b2a713a0456c86278aeaa220a75ac
     name: maildev
@@ -481,7 +493,7 @@ entries:
     - maildev-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.570116+01:00"
+    created: "2025-11-19T19:09:35.9714023+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 390ef651bc9e42c056b42b74a2c4be70efd1685d466f657f139786162e702d83
     name: maildev
@@ -489,7 +501,7 @@ entries:
     - maildev-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.569899+01:00"
+    created: "2025-11-19T19:09:35.9689286+01:00"
     description: Simple maildev/maildev Kubernetes deployment
     digest: 16301b4abf5d990d6b166c041f49e440f02916ba10f071850515bfd45c3496e4
     name: maildev
@@ -498,7 +510,7 @@ entries:
     version: 1.0.0
   metrics-generator:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.574068+01:00"
+    created: "2025-11-19T19:09:35.9941166+01:00"
     description: slu metrics-generator
     digest: 44d9e99fc78a84d09ca81b951e91b39ed42492c0de9925e68825c5b9401c2264
     name: metrics-generator
@@ -506,7 +518,7 @@ entries:
     - metrics-generator-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.573774+01:00"
+    created: "2025-11-19T19:09:35.9910972+01:00"
     description: slu metrics-generator
     digest: 9457028d979d4a897af7782cfa570f10dbc24c99a6e33f90d5b00afc9a52061f
     name: metrics-generator
@@ -516,7 +528,7 @@ entries:
   olm:
   - apiVersion: v2
     appVersion: v0.28.0
-    created: "2025-11-03T21:52:36.579267+01:00"
+    created: "2025-11-19T19:09:36.0259522+01:00"
     description: Operator Lifecycle Manager
     digest: ce4850a52b56f3f24a89300bf44ae0c1d9d9192b04e9a2f614afd7c17b40acf4
     name: olm
@@ -526,7 +538,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: v0.25.0
-    created: "2025-11-03T21:52:36.579101+01:00"
+    created: "2025-11-19T19:09:36.0234188+01:00"
     description: Operator Lifecycle Manager
     digest: 5ac813ea4dd65e786f599842c4c5955ecb00b36345793f1782386062599c0ae6
     name: olm
@@ -536,7 +548,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v0.24.0
-    created: "2025-11-03T21:52:36.576519+01:00"
+    created: "2025-11-19T19:09:36.0087239+01:00"
     description: Operator Lifecycle Manager
     digest: 3d36996887b221bee09de69fa0c7590b942c97fdda126fb135d56e3c6fd7d870
     name: olm
@@ -547,7 +559,7 @@ entries:
   olm-crds:
   - apiVersion: v2
     appVersion: v0.28.0
-    created: "2025-11-03T21:52:36.581992+01:00"
+    created: "2025-11-19T19:09:36.047982+01:00"
     description: Operator Lifecycle Manager
     digest: 8db2b65c1b785179a1a46d53ac6b6b86f9a14fa3b05751a023ff87c8021d2c99
     name: olm-crds
@@ -557,7 +569,7 @@ entries:
     version: 0.3.0
   one-image:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.592897+01:00"
+    created: "2025-11-19T19:09:36.1017694+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 42c8205a5d1ba1bbadbab720c11c1acc47d8dfc383ab3c9570ef22514c153f79
     name: one-image
@@ -565,7 +577,7 @@ entries:
     - one-image-1.19.0.tgz
     version: 1.19.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.592624+01:00"
+    created: "2025-11-19T19:09:36.0983967+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 31fdbab6d57b9e6006838a9a79d8f900385feb57e142058f08b45f07dbef6616
     name: one-image
@@ -573,7 +585,7 @@ entries:
     - one-image-1.18.0.tgz
     version: 1.18.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.592352+01:00"
+    created: "2025-11-19T19:09:36.0957278+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 30082b4932cd1e98c98abd790d3e029535938464555054b0bc1ab985f6ca491e
     name: one-image
@@ -581,7 +593,7 @@ entries:
     - one-image-1.17.0.tgz
     version: 1.17.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.592099+01:00"
+    created: "2025-11-19T19:09:36.0928592+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 464a721d731abdeff6b637f650c28379647b36c24412d3077f373f42246033ff
     name: one-image
@@ -589,7 +601,7 @@ entries:
     - one-image-1.16.0.tgz
     version: 1.16.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.590696+01:00"
+    created: "2025-11-19T19:09:36.0898817+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: a2473b76d89d44b12d4caab14a2a20da98a54f86a2df4d425b0b6a98826bc13e
     name: one-image
@@ -597,7 +609,7 @@ entries:
     - one-image-1.15.0.tgz
     version: 1.15.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.590329+01:00"
+    created: "2025-11-19T19:09:36.086743+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 6ca4ee92f78813481812e1f30f3eae564c4fdc9ca4ee6cbfbd1af72ad7f42bdf
     name: one-image
@@ -605,7 +617,7 @@ entries:
     - one-image-1.14.0.tgz
     version: 1.14.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.589826+01:00"
+    created: "2025-11-19T19:09:36.0833951+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: d53e854c19b36b51b974b18564ee8ce07375b5ffbb46bc4540fc266f5a422c89
     name: one-image
@@ -613,7 +625,7 @@ entries:
     - one-image-1.13.0.tgz
     version: 1.13.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.587692+01:00"
+    created: "2025-11-19T19:09:36.0733138+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 019bcb2855f17a410b761ec40450bce619348bdf0ea94d0d1731c155d0b6d5dd
     name: one-image
@@ -621,7 +633,7 @@ entries:
     - one-image-1.12.0.tgz
     version: 1.12.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.585546+01:00"
+    created: "2025-11-19T19:09:36.0621921+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 77db2e019b7164eed398a2c2ed629cf36d4c3da70d4f2a481f1867d6affaa285
     name: one-image
@@ -629,7 +641,7 @@ entries:
     - one-image-1.11.0.tgz
     version: 1.11.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.583967+01:00"
+    created: "2025-11-19T19:09:36.0554324+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 9ff19151ffc6d196ff9edbb02225f1bb3ee9f406947968ec1400df0a87ef612f
     name: one-image
@@ -637,7 +649,7 @@ entries:
     - one-image-1.10.0.tgz
     version: 1.10.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.598732+01:00"
+    created: "2025-11-19T19:09:36.1475936+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: f237c4c839b76ef9f6163ec4e36f903dfbc10c8903e4494605cd4c5a52f22936
     name: one-image
@@ -645,7 +657,7 @@ entries:
     - one-image-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.598111+01:00"
+    created: "2025-11-19T19:09:36.143242+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 3e23d4b2aa775a12ea0121b3f559a22bb4bfc9986a430a991d0638b6454dc1b3
     name: one-image
@@ -653,7 +665,7 @@ entries:
     - one-image-1.8.0-dev-2.tgz
     version: 1.8.0-dev-2
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.597776+01:00"
+    created: "2025-11-19T19:09:36.1348641+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 4ad20904fba39a7a6fc25dc141236a755921bccb8e0225c899c8f9c2476b7071
     name: one-image
@@ -661,7 +673,7 @@ entries:
     - one-image-1.8.0-dev-1.tgz
     version: 1.8.0-dev-1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.597493+01:00"
+    created: "2025-11-19T19:09:36.1319118+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 137f51afffdaeca04c786ca705b3eb5719357d947e16a9639bad1025c3517e71
     name: one-image
@@ -669,7 +681,7 @@ entries:
     - one-image-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.597109+01:00"
+    created: "2025-11-19T19:09:36.1292084+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 954502f21dc6537e1dcbca85fc5c15d782b65054c3898407c58bc9f3b186f600
     name: one-image
@@ -677,7 +689,7 @@ entries:
     - one-image-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.596897+01:00"
+    created: "2025-11-19T19:09:36.1265507+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: dea73d73c863081b26e85be2c68145eff9201d80c969d7a3c8d7d1dec88b2685
     name: one-image
@@ -685,7 +697,7 @@ entries:
     - one-image-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.596716+01:00"
+    created: "2025-11-19T19:09:36.1238818+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 444cae3a90c565f4b20734ded53af476e3c16c423224ab10bd7ad5fc19b80b10
     name: one-image
@@ -693,7 +705,7 @@ entries:
     - one-image-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.596424+01:00"
+    created: "2025-11-19T19:09:36.1210928+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 27de3543184af57c3ca0a16d8310c29f877c9e12222a5a60e554d94b0a8e4fd6
     name: one-image
@@ -701,7 +713,7 @@ entries:
     - one-image-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.596236+01:00"
+    created: "2025-11-19T19:09:36.1183279+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 06b68d12338cdeb9b5dc1805d3a7af32b263bee7bfef58b240cc37383982ecc9
     name: one-image
@@ -710,7 +722,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-11-03T21:52:36.595979+01:00"
+    created: "2025-11-19T19:09:36.1154661+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 5f6e332fb8c3d2462b243cadddf5b53079bb6c41df17aa2c91bd93de7ee6551f
     name: one-image
@@ -719,7 +731,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-11-03T21:52:36.595689+01:00"
+    created: "2025-11-19T19:09:36.1123212+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: ad1fa6470957ded66f9dfc5df553dad995c9b2fbf4ad5a9a9e06ca49494e773d
     name: one-image
@@ -728,7 +740,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-11-03T21:52:36.5941+01:00"
+    created: "2025-11-19T19:09:36.1094456+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 996f0512fe97bdfac158329e22477caaf15e3dcd3d352523afde5ab7dae493d0
     name: one-image
@@ -737,7 +749,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-11-03T21:52:36.593782+01:00"
+    created: "2025-11-19T19:09:36.106705+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 00e78cc0ccd2cf5d927ece7316793e5c454ce937d2e28f2ed4c9507b915a041d
     name: one-image
@@ -746,7 +758,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-11-03T21:52:36.593512+01:00"
+    created: "2025-11-19T19:09:36.1042748+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: 25051bc5b7fb926d99582670c1a0ad75df3d369530b10f97e0b4c5ae5a2f8efd
     name: one-image
@@ -755,7 +767,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2025-11-03T21:52:36.582278+01:00"
+    created: "2025-11-19T19:09:36.0504772+01:00"
     description: Serving one image on Kubernetes Ingress
     digest: d3a40334abf80c23100d566001807afb9f36873e4828fc68416106c1ffb69aff
     name: one-image
@@ -764,7 +776,7 @@ entries:
     version: 1.1.1
   parking:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.598926+01:00"
+    created: "2025-11-19T19:09:36.1504299+01:00"
     description: Simple domain parking site
     digest: 9793886d3212e4e7ff3386273e90d0c030bba2bdb8fd7b610c75ecbea081c6e1
     name: parking
@@ -773,7 +785,7 @@ entries:
     version: 0.1.0
   pgadmin:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.599188+01:00"
+    created: "2025-11-19T19:09:36.1532937+01:00"
     description: pgAdmin Helm Chart
     digest: e0116609c587f049c31a1b72f76c6e02f7e362de9fc1b83e2ad03faad01d8084
     name: pgadmin
@@ -782,7 +794,7 @@ entries:
     version: 0.1.0
   rbac:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.60011+01:00"
+    created: "2025-11-19T19:09:36.1554917+01:00"
     description: Create RBAC objects
     digest: 078d83603d44a95aa1d337783755beabeaf515eb7cb9733e1a9654e2393d84a1
     name: rbac
@@ -792,7 +804,7 @@ entries:
     version: 0.1.0
   redirect:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.600962+01:00"
+    created: "2025-11-19T19:09:36.1632817+01:00"
     description: Simple redirect server
     digest: 5903bc30f8e1b921970950745f121cbd3a17d63fe1be2fac7928c1c03ec77a89
     name: redirect
@@ -800,7 +812,7 @@ entries:
     - redirect-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.600745+01:00"
+    created: "2025-11-19T19:09:36.1607301+01:00"
     description: Simple redirect server
     digest: 0e84310b1a0a67c76d23ca0d3b975d43666df178babbe7151708892901b6e1e5
     name: redirect
@@ -808,7 +820,7 @@ entries:
     - redirect-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.600415+01:00"
+    created: "2025-11-19T19:09:36.1581176+01:00"
     description: Simple redirect server
     digest: e27cbdefd88cdc4bac8c166d3a1434cd367ae465083ee1655ee896419dbda6a4
     name: redirect
@@ -817,7 +829,7 @@ entries:
     version: 0.1.0
   registry:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.601164+01:00"
+    created: "2025-11-19T19:09:36.1654328+01:00"
     description: Simple Docker Registry in Kubernetes
     digest: b23add1ed030072934d8b06fc0291a6638daeba831a396c03c46e800e7ee6c30
     name: registry
@@ -826,7 +838,7 @@ entries:
     version: 0.1.0-dev
   scheduled-app:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.60202+01:00"
+    created: "2025-11-19T19:09:36.1733963+01:00"
     description: Scheduled App Helm Chart for running scheduled tasks
     digest: 20ecd96965960fb574cc3f8ad33c374199b3ef520f680ad664c5bc0ece729f98
     icon: https://avatars.githubusercontent.com/u/16311959?s=200&v=4
@@ -839,7 +851,7 @@ entries:
     - scheduled-app-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.60166+01:00"
+    created: "2025-11-19T19:09:36.170515+01:00"
     description: Scheduled App Helm Chart for running scheduled tasks
     digest: 343e889ccb71bd779c9c858f7343177bea3f72476e4aabaadfb99dfba6c017af
     icon: https://avatars.githubusercontent.com/u/16311959?s=200&v=4
@@ -852,7 +864,7 @@ entries:
     - scheduled-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.60134+01:00"
+    created: "2025-11-19T19:09:36.1679135+01:00"
     description: Scheduled App Helm Chart for running scheduled tasks
     digest: 750b518af35273cf7842f6aa3cc9d5228968a946b2e49a9878be3ab78e08a33a
     icon: https://avatars.githubusercontent.com/u/16311959?s=200&v=4
@@ -866,7 +878,7 @@ entries:
     version: 0.1.0
   signpost:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.603268+01:00"
+    created: "2025-11-19T19:09:36.1862756+01:00"
     description: SikaLabs Signpost
     digest: 81c739d2b27769afb9c0ba83120b65b09d01779044d8ed5cc73316f201194b78
     name: signpost
@@ -874,7 +886,7 @@ entries:
     - signpost-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.603155+01:00"
+    created: "2025-11-19T19:09:36.1837842+01:00"
     description: SikaLabs Signpost
     digest: 1602cfb6aaa9506a4c8f17407320fbea38841c7307b26446c233d2265269df68
     name: signpost
@@ -882,7 +894,7 @@ entries:
     - signpost-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.603009+01:00"
+    created: "2025-11-19T19:09:36.1813177+01:00"
     description: SikaLabs Signpost
     digest: 60119525989e192e02ef88a6546dc24f36ac1243f2ca8043371cf2a9acaf2566
     name: signpost
@@ -890,7 +902,7 @@ entries:
     - signpost-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.602492+01:00"
+    created: "2025-11-19T19:09:36.1787481+01:00"
     description: SikaLabs Signpost
     digest: 5e7391efd43096ff621808ed9ce083fe8f60919101cf7a933381bf5e1b5f23b7
     name: signpost
@@ -898,7 +910,7 @@ entries:
     - signpost-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.602316+01:00"
+    created: "2025-11-19T19:09:36.1762093+01:00"
     description: SikaLabs Signpost
     digest: 04af92840b260665e174fba1b94fd57c332a0ce6d86d5232226052be8bcda526
     name: signpost
@@ -908,7 +920,7 @@ entries:
   sikalabs-harbor-master-snapshot:
   - apiVersion: v1
     appVersion: dev
-    created: "2025-11-03T21:52:36.605628+01:00"
+    created: "2025-11-19T19:09:36.2020036+01:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 23cea5778b67b9170118673558b1681f32fa1e9886e5bb7554a4f46bcb768164
@@ -934,7 +946,7 @@ entries:
     version: 2023.06.20
   simple-grafana:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.606515+01:00"
+    created: "2025-11-19T19:09:36.2086638+01:00"
     description: Simple Grafana for training purpose
     digest: d91565422c098ef3c89e14e8f7b929e3b8afa4ffca9118195a453ae35a994589
     name: simple-grafana
@@ -942,7 +954,7 @@ entries:
     - simple-grafana-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.605783+01:00"
+    created: "2025-11-19T19:09:36.204908+01:00"
     description: Simple Grafana for training purpose
     digest: e83e8413730cedb1246f61e85e7dfc295efd70330a6e1242fd3c33823476d023
     name: simple-grafana
@@ -951,7 +963,7 @@ entries:
     version: 0.1.0
   simple-keycloak:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.606645+01:00"
+    created: "2025-11-19T19:09:36.2111473+01:00"
     description: Simple in-memory Keycloak for development / training purposes
     digest: b850f8c774f9bf2edcb0fdb1d0aa9d5970ea30266f10b649b447b4b456ecc57d
     name: simple-keycloak
@@ -960,7 +972,7 @@ entries:
     version: 0.1.0
   simple-mssql:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.607193+01:00"
+    created: "2025-11-19T19:09:36.2158425+01:00"
     description: Single Node MS SQL Server
     digest: a71f2f8cdbc7d991b4f9149425fed608ce825bbcd70fc8ecbd4d78fea4be6953
     name: simple-mssql
@@ -969,7 +981,7 @@ entries:
     - simple-mssql-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.606848+01:00"
+    created: "2025-11-19T19:09:36.213573+01:00"
     description: Single Node MS SQL Server
     digest: 80e3e1fe25c7092c068325523bcc0dd4a09908ceccd275f8b138d193b376404f
     name: simple-mssql
@@ -979,7 +991,7 @@ entries:
     version: 0.1.0
   simple-prometheus:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.607661+01:00"
+    created: "2025-11-19T19:09:36.220564+01:00"
     description: Simple Prometheus for training purpose
     digest: 30db602baa7d5ea081e55475b090d49cde7ead8955f85e4e2d2fdbe56167fc6d
     name: simple-prometheus
@@ -987,7 +999,7 @@ entries:
     - simple-prometheus-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.607386+01:00"
+    created: "2025-11-19T19:09:36.2180729+01:00"
     description: Simple Prometheus for training purpose
     digest: 22f9d5c44ee42f1aed7dc1ea79786f50fe833e36fac8a9e5c7e649f74919be4b
     name: simple-prometheus
@@ -996,7 +1008,7 @@ entries:
     version: 0.1.0
   simple-registry:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.609929+01:00"
+    created: "2025-11-19T19:09:36.2333286+01:00"
     description: Simple Docker Registry
     digest: 7a4e24169ed4b884c4c232925141d637c60b644546e49d7c8040c30ee1c81ccb
     name: simple-registry
@@ -1004,7 +1016,7 @@ entries:
     - simple-registry-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.609377+01:00"
+    created: "2025-11-19T19:09:36.2302487+01:00"
     description: Simple Docker Registry
     digest: d7b8237f7c3503534420fdb26a42bbb47b66f097afd90f9745e32cfcf211746d
     name: simple-registry
@@ -1012,7 +1024,7 @@ entries:
     - simple-registry-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.608955+01:00"
+    created: "2025-11-19T19:09:36.2276467+01:00"
     description: Simple Docker Registry
     digest: 4405a49a4de71b604ff30203acd038e8c7ed0302c7e50f585ce3e431345aaa5d
     name: simple-registry
@@ -1020,7 +1032,7 @@ entries:
     - simple-registry-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.608122+01:00"
+    created: "2025-11-19T19:09:36.2251823+01:00"
     description: Simple Docker Registry
     digest: bde1ac3aaccd2f857749b8f49a4c4c7c91c49ea80f1b3997eb4352a8888dc83b
     name: simple-registry
@@ -1028,7 +1040,7 @@ entries:
     - simple-registry-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.60786+01:00"
+    created: "2025-11-19T19:09:36.2227558+01:00"
     description: Simple Docker Registry
     digest: c0a7867a4d7307b8d72c511e17e99f0ef2c2d40a764704df6ae73ba8a7961447
     name: simple-registry
@@ -1037,7 +1049,7 @@ entries:
     version: 0.1.0
   simplemailproxy:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.610033+01:00"
+    created: "2025-11-19T19:09:36.2354057+01:00"
     description: Simple Mail Proxy (for Maildev)
     digest: 590173ad5a987693d867b11d22eb17666a769131ecfd43cd17dcb9e172cecf94
     name: simplemailproxy
@@ -1046,7 +1058,7 @@ entries:
     version: 1.0.0
   supportmonkey:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.610139+01:00"
+    created: "2025-11-19T19:09:36.2374715+01:00"
     description: Send random email to support
     digest: 8b6450645674dd9e9d18b23527cef1052813bfdcbee84fadde350ee4233b795f
     name: supportmonkey
@@ -1055,7 +1067,7 @@ entries:
     version: 0.2.0
   tergum-cronjob:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.612985+01:00"
+    created: "2025-11-19T19:09:36.2507287+01:00"
     description: Tergum Cronjob
     digest: 1b427818206f1a19c6e70194922ad5cd22c180440eb846c595a64dbc049d9127
     name: tergum-cronjob
@@ -1063,7 +1075,7 @@ entries:
     - tergum-cronjob-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.612005+01:00"
+    created: "2025-11-19T19:09:36.2485454+01:00"
     description: Tergum Cronjob
     digest: a875e6bb0ca461e12922564794093122d3b9b81bd491f8d5f3e8be2eb07fb972
     name: tergum-cronjob
@@ -1071,7 +1083,7 @@ entries:
     - tergum-cronjob-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.611785+01:00"
+    created: "2025-11-19T19:09:36.2463796+01:00"
     description: Tergum Cronjob
     digest: 92ccdcd4efa0555863376a302f208024786c5c4b1732b9a91c95b0455d2f3071
     name: tergum-cronjob
@@ -1079,7 +1091,7 @@ entries:
     - tergum-cronjob-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.611575+01:00"
+    created: "2025-11-19T19:09:36.2439658+01:00"
     description: Tergum Cronjob
     digest: f857e469bc027ab69a5e304417be4141ba5577c4dc50d808300f7e1a1a122903
     name: tergum-cronjob
@@ -1087,7 +1099,7 @@ entries:
     - tergum-cronjob-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.61056+01:00"
+    created: "2025-11-19T19:09:36.2418138+01:00"
     description: Tergum Cronjob
     digest: e5c007a0a78d4170025f346eb8b52d39b34201a970ddc01147bbf1e3775fbedc
     name: tergum-cronjob
@@ -1095,7 +1107,7 @@ entries:
     - tergum-cronjob-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.610331+01:00"
+    created: "2025-11-19T19:09:36.2395845+01:00"
     description: Tergum Cronjob
     digest: f173f34af3be389dd2707d9e6552395230daa8e18a59b6d835dc63ddc592230c
     name: tergum-cronjob
@@ -1104,7 +1116,7 @@ entries:
     version: 0.1.0
   terraform-executor:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.613238+01:00"
+    created: "2025-11-19T19:09:36.2549313+01:00"
     description: Terraform executor for Kubernetes
     digest: 98e5acbc35afbefdc149ac78c6695d854ef0982533afd58e23f897ad4f0f2a61
     name: terraform-executor
@@ -1113,7 +1125,7 @@ entries:
     - terraform-executor-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.61311+01:00"
+    created: "2025-11-19T19:09:36.2528148+01:00"
     description: Terraform executor for Kubernetes
     digest: e664ec847c73142e57a22aaf87395979462644af28f3afbafc34cd3bc400bb93
     name: terraform-executor
@@ -1123,7 +1135,7 @@ entries:
     version: 0.1.0
   uptime-kuma:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.614064+01:00"
+    created: "2025-11-19T19:09:36.2639241+01:00"
     description: Uptime Kuma
     digest: 2b7efe70a1702694fbc45811dd32cc02ce176efaf809be0e055057048437a0b8
     name: uptime-kuma
@@ -1131,7 +1143,7 @@ entries:
     - uptime-kuma-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.61394+01:00"
+    created: "2025-11-19T19:09:36.2618117+01:00"
     description: Uptime Kuma
     digest: 0b4807f573664960ea1c97a345bec58a533181c85a3ebc0b2bd285cf63627917
     name: uptime-kuma
@@ -1139,7 +1151,7 @@ entries:
     - uptime-kuma-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.613814+01:00"
+    created: "2025-11-19T19:09:36.2596788+01:00"
     description: Uptime Kuma
     digest: 671793fb34feb26a1c55a347b9077189b9274e473fc00c535808ebc5f272fa41
     name: uptime-kuma
@@ -1147,7 +1159,7 @@ entries:
     - uptime-kuma-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.613497+01:00"
+    created: "2025-11-19T19:09:36.2572295+01:00"
     description: Uptime Kuma
     digest: 671e732af2b9e72a51429f85a93913bb6bc44bce7df51ca182eaa12e09800807
     name: uptime-kuma
@@ -1156,7 +1168,7 @@ entries:
     version: 0.2.0
   vault-dev:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.614304+01:00"
+    created: "2025-11-19T19:09:36.2681963+01:00"
     description: Hashicorp Vault Server in Dev Mode (in Memory)
     digest: 86fa47a98ec53a0e4d0d13fbc21a687e3177b208c415a07c5fe478d0b15edc24
     name: vault-dev
@@ -1164,7 +1176,7 @@ entries:
     - vault-dev-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.614182+01:00"
+    created: "2025-11-19T19:09:36.2660996+01:00"
     description: Hashicorp Vault Server in Dev Mode (in Memory)
     digest: 009f8f01f521fe6e43a90e7d21cd246b4b2507d1811e3d2a139848821881a95d
     name: vault-dev
@@ -1173,7 +1185,7 @@ entries:
     version: 0.1.0
   vaultwarden:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.614493+01:00"
+    created: "2025-11-19T19:09:36.2706128+01:00"
     description: Vaultwarden is a Bitwarden compatible server written in Rust.
     digest: 459a31648307235eda010b5044a16fd4f92d5121868554176e79e2258081e7aa
     name: vaultwarden
@@ -1182,7 +1194,7 @@ entries:
     version: 0.1.0
   wildcard-tls:
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.614986+01:00"
+    created: "2025-11-19T19:09:36.282249+01:00"
     description: Wildcard TLS certificate
     digest: b111c29162e22d7cfbd8333a99a5b115cccee40b1b30fef1211a7df3c64bbde5
     name: wildcard-tls
@@ -1191,7 +1203,7 @@ entries:
     - wildcard-tls-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2025-11-03T21:52:36.614778+01:00"
+    created: "2025-11-19T19:09:36.2793932+01:00"
     description: Wildcard TLS certificate
     digest: f93952c7798b69cba3598e5290913b484744932734d86443570d82157fc36626
     name: wildcard-tls
@@ -1201,7 +1213,7 @@ entries:
     version: 0.1.0
   wordpress:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.616063+01:00"
+    created: "2025-11-19T19:09:36.285503+01:00"
     description: Simple Wordpress
     digest: 4b13ed82e68ad4d0118b303d4e7d7d4d14dbbe00b5f52b3d713622ad169861e6
     name: wordpress
@@ -1210,17 +1222,17 @@ entries:
     version: 0.2.0
   wordpress-mysql:
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.61666+01:00"
+    created: "2025-11-19T19:09:36.2915594+01:00"
     digest: 4663da9275911cf2ac15a526e4b781596ab76cfe1e21b5fe2488caec39943177
     name: wordpress-mysql
     urls:
     - wordpress-mysql-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
-    created: "2025-11-03T21:52:36.616547+01:00"
+    created: "2025-11-19T19:09:36.2888974+01:00"
     digest: 2c947411159f11490b7d78af4ec6523fa642a8ad9a542c89845a93867e7b74c7
     name: wordpress-mysql
     urls:
     - wordpress-mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-03T21:52:36.542873+01:00"
+generated: "2025-11-19T19:09:35.8009152+01:00"
